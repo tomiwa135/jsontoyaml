@@ -1,6 +1,6 @@
 {
-"esaas": {
-    "domain": "api-esaas-jp.com/api-server2-jp.com",
-    "port": "9400/9300"
-} 
+"esaas": [
+    "api-esaas-jp.com/api-server2-jp.com",
+    "9400/9300"
+]
 }
