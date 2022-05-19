@@ -1,0 +1,18 @@
+apiVersion: projectcalico.org/v3
+kind: NetworkPolicy
+metadata:
+  name: default.egress.pb-network-policy
+  namespace: ${Namespace}
+spec:
+  types:
+    - Egress
+  egress:
+    action: Allow
+    protocol: TCP
+    destination:
+      domains:
+        - ${Domain_1}
+        - ${Domain_2}
+      ports:
+        - ${Port_1}
+        - ${Port_2}
