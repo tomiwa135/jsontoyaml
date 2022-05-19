@@ -11,8 +11,8 @@ spec:
     protocol: TCP
     destination:
       domains:
-        - ${Domain_1}
-        - ${Domain_2}
+        ${Domain_1}
+        ${Domain_2}
       ports:
-        - ${Port_1}
-        - ${Port_2}
+        ${Port_1}
+        ${Port_2}
